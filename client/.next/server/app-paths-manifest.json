@@ -1,0 +1,9 @@
+{
+  "/page": "app/page.js",
+  "/(nondashboard)/search/page": "app/(nondashboard)/search/page.js",
+  "/(dashboard)/tenants/residences/[id]/page": "app/(dashboard)/tenants/residences/[id]/page.js",
+  "/(dashboard)/tenants/applications/page": "app/(dashboard)/tenants/applications/page.js",
+  "/(dashboard)/tenants/favorites/page": "app/(dashboard)/tenants/favorites/page.js",
+  "/(dashboard)/tenants/settings/page": "app/(dashboard)/tenants/settings/page.js",
+  "/(dashboard)/tenants/residences/page": "app/(dashboard)/tenants/residences/page.js"
+}
