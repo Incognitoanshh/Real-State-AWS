@@ -50,7 +50,11 @@ Build a **Rental Apartment Platform** using **Next.js**, **Node.js**, and **AWS*
 
 ## 🔐 Authentication
 
-Authentication is powered by **AWS Cognito** using Amplify CLI and hosted UI. It supports user sign-up, sign-in, and secure session handling with JWT tokens.
+Authentication is powered by **AWS Cognito** using Amplify CLI and hosted UI.  
+It supports:
+- User sign-up and sign-in
+- JWT-based session management
+- Secure APIs with token verification
 
 ---
 
@@ -62,32 +66,43 @@ Authentication is powered by **AWS Cognito** using Amplify CLI and hosted UI. It
 ├── prisma/              # Prisma schema and migration scripts
 ├── scripts/             # AWS deployment scripts (EC2 setup, RDS config)
 ├── public/              # Static assets
-├── README.md
+├── README.md            # Project documentation
+```
 
+---
 
+## 🚀 Deployment
 
-🚀 Deployment
+This project is deployable on AWS using EC2 for backend and S3 + CloudFront for frontend.
 
-This project is deployable on AWS using EC2 for backend hosting and S3 + CloudFront for frontend.
-	•	Backend runs on EC2 with Node.js + PostgreSQL (RDS)
-	•	Frontend deployed via S3 (or Vercel for ease)
-	•	Use Route 53 for DNS and Cognito for user pool management
+- 🖥️ **Backend**: Deployed on **EC2** with Node.js + PostgreSQL (RDS)
+- 🌐 **Frontend**: Hosted on **S3**, optionally via **Vercel**
+- 🌍 **DNS**: Managed by **Route 53**
+- 🔐 **Authentication**: Managed by **AWS Cognito**
 
-Resources and Links
+---
 
-Code & Assets
-	•	⭐ Completed Code
-	•	⭐ Diagrams
-	•	⭐ Assets
-	•	⭐ AWS EC2 Instructions
+## 📎 Resources and Links
 
-Documentation
-	•	📌 Mapbox
-	•	📌 Shadcn
-	•	📌 Zod
-	•	📌 React Hook Form
-	•	📌 Prisma Docs
-	•	📌 AWS CLI
-	•	📌 Amplify
-	•	📌 AWS Billing Console
+### Code & Assets:
+- ⭐ Completed Code
+- ⭐ Diagrams
+- ⭐ UI Assets
+- ⭐ AWS EC2 Setup Guide
+
+### Documentation:
+- 📌 [Mapbox Docs](https://docs.mapbox.com/)
+- 📌 [Shadcn UI Docs](https://ui.shadcn.com/)
+- 📌 [Zod Docs](https://zod.dev/)
+- 📌 [React Hook Form](https://react-hook-form.com/)
+- 📌 [Prisma Docs](https://www.prisma.io/docs)
+- 📌 [AWS CLI Docs](https://docs.aws.amazon.com/cli/)
+- 📌 [Amplify CLI](https://docs.amplify.aws/)
+- 📌 [AWS Billing Console](https://console.aws.amazon.com/billing/)
+
+---
+
+## ✍️ Author
+
+Made with 💻 and ☁️ by [Incognitoanshh]
 
